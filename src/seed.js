@@ -1,1 +1,7 @@
-export const projects = ["Hello", "Counter"]
+export const projects = 
+[
+    "Hello",
+    "Counter",
+    "Temperature",
+    "Search"
+]
