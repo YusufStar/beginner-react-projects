@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";
 import {projects} from "./seed"
 
+import Hello from './components/Hello';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

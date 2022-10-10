@@ -1,17 +1,13 @@
 import React from 'react'
-import Counter from './Counter'
-import Hello from './Hello'
-import Search from './Search'
-import Temperature from './Temperature'
+import Hello from './components/Hello'
+import Counter from "./components/Counter"
 
 function SelectProject({projectname}) {
   return (
     <div>
         {
         projectname == "Hello" ? <Hello/>:
-        projectname == "Counter" ? <Counter/>:
-        projectname == "Temperature" ? <Temperature/>:
-        projectname == "Search" ? <Search />:""
+        projectname == "Counter" ? <Counter/>:""
         }
     </div>
   )
