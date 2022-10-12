@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { countries } from "../seed"
-import "./Search.scss"
+import "./Style/Search.scss"
 
 function Search() {
   const [input, SetInput] = useState("")
