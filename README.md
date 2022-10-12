@@ -8,4 +8,6 @@ project2 - Counter (Understanding useState usage, modifying data, using button c
 
 Project3 - Temperature (Understanding UseState, manipulating data, using button click functionality, using tailwindcss at a basic level, and using if in tailwindcss)<br/>
 
-Project4 - Search (Writing a search function using filter on array data and printing the result to the screen with map)
+Project4 - Search (Writing a search function using filter on array data and printing the result to the screen with map)<br/>
+
+Project5 - Register (Creating a simple register form using form structure and usestate in react)
