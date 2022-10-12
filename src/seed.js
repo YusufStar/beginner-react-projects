@@ -3,7 +3,8 @@ export const projects =
     "Hello",
     "Counter",
     "Temperature",
-    "Search"
+    "Search",
+    "Register"
 ]
 
 export const countries = 
