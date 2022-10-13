@@ -6,6 +6,7 @@ import Search from "./components/Search"
 import Register from "./components/Register"
 import QuizApp from './components/QuizApp'
 import Login from "./components/Login"
+import EmployeeList from './components/EmployeeList'
 
 function SelectProject({projectname}) {
   return (
@@ -17,7 +18,8 @@ function SelectProject({projectname}) {
         projectname == "Search" ? <Search/>:
         projectname == "Register" ? <Register/>:
         projectname == "QuizApp" ? <QuizApp/>:
-        projectname == "Login" ? <Login/>:""
+        projectname == "Login" ? <Login/>:
+        projectname == "EmployeeList" ? <EmployeeList/>:""
         }
     </div>
   )
