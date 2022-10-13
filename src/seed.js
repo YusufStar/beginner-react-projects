@@ -7,7 +7,7 @@ export const projects =
     "Register",
     "QuizApp",
     "Login",
-    "EmployeeList"
+    "Employee"
 ]
 
 export const questions = [
