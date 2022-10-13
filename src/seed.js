@@ -5,7 +5,8 @@ export const projects =
     "Temperature",
     "Search",
     "Register",
-    "QuizApp"
+    "QuizApp",
+    "Login"
 ]
 
 export const questions = [
