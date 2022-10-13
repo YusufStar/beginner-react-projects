@@ -30,7 +30,7 @@ const LoginButton = () => {
 
     return (
         !isAuthenticated && (
-        <button className='w-[10vw] h-[5vh] bg-gray-900 rounded-md hover:scale-110 transition-all' onClick={() => loginWithRedirect()}>
+        <button className='w-[20vw] h-[10vh] bg-gray-900 rounded-md hover:scale-110 transition-all' onClick={() => loginWithRedirect()}>
             Log In
         </button>
     )
@@ -42,7 +42,7 @@ const LogoutButton = () => {
     
     return (
         isAuthenticated && (
-        <button className='w-[10vw] h-[5vh] bg-gray-900 rounded-md hover:scale-110 transition-all' onClick={() => logout()}>
+        <button className='w-[20vw] h-[10vh] bg-gray-900 rounded-md hover:scale-110 transition-all' onClick={() => logout()}>
             Log out
         </button>
     )
