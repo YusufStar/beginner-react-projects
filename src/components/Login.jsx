@@ -10,7 +10,7 @@ function Login() {
     <Auth0Provider
     domain={domain}
     clientId={client}
-    redirectUri="http://localhost:3000/Login"
+    redirectUri="https://beginner-pi.vercel.app/Login"
     >
         <Profile />
         <LoginButton />

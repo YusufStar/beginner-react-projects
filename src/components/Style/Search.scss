@@ -15,7 +15,6 @@ $gray: #9b9b9b;
   border: 0;
   border-bottom: 2px solid $gray;
   outline: 0;
-  font-size: 1.3rem;
   color: $white;
   padding: 7px 0;
   background: transparent;
@@ -26,7 +25,6 @@ $gray: #9b9b9b;
   }
 
   &:placeholder-shown ~ .form__label {
-    font-size: 1.3rem;
     cursor: text;
     top: 20px;
   }
@@ -37,7 +35,6 @@ $gray: #9b9b9b;
   top: 0;
   display: block;
   transition: 0.2s;
-  font-size: 1rem;
   color: $gray;
 }
 
@@ -47,12 +44,9 @@ $gray: #9b9b9b;
     top: 0;
     display: block;
     transition: 0.2s;
-    font-size: 1rem;
     color: $primary;
-    font-weight:700;    
   }
-  padding-bottom: 6px;  
-  font-weight: 700;
+  padding-bottom: 6px;
   border-width: 3px;
   border-image: linear-gradient(to right, $primary,$secondary);
   border-image-slice: 1;

@@ -6,7 +6,7 @@ function Temperature() {
     
   return (
     <div className='flex flex-col gap-5 items-center justify-center h-screen bg-gray-800'>
-        <div className="flex flex-row gap-5 items-center justify-center w-[50%] h-[50%] bg-gray-900 rounded-full">
+        <div className="flex flex-row gap-5 items-center justify-center w-[100vw] h-[75vh] bg-gray-900 rounded-full">
             <button className='text-white text-2xl w-[5rem] h-[5rem] rounded-full bg-gray-800' onClick={() => {
                 SetTemperature(temperature - 1)
             }}>-</button>
@@ -17,7 +17,7 @@ function Temperature() {
                 SetTemperature(temperature + 1)
             }}>+</button>
         </div>
-        <BackToHome />
+        <BackToHome/>
     </div>
   )
 }
